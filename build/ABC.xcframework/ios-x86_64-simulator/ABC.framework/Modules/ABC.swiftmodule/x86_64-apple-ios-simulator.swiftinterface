@@ -1,0 +1,19 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ABC
+@_exported import ABC
+import FirebaseAuth
+import FirebaseCore
+import FirebaseMessaging
+import Swift
+@_exported import UIKit
+@objc @_inheritsConvenienceInitializers public class TXIS : ObjectiveC.NSObject {
+  public static let shared: ABC.TXIS
+  public var applicationID: Swift.String! {
+    get
+    set
+  }
+  public func initialize()
+  @objc override dynamic public init()
+  @objc deinit
+}

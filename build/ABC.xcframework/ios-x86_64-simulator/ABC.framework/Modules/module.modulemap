@@ -1,0 +1,11 @@
+framework module ABC {
+  umbrella header "ABC.h"
+
+  export *
+  module * { export * }
+}
+
+module ABC.Swift {
+    header "ABC-Swift.h"
+    requires objc
+}
