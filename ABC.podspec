@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source = { :http => 'https://github.com/txis-hlis/Abc/blob/master/build/ABC.zip' }
-  s.vendored_frameworks = 'ABC.xcframework'
+  s.source = { :git => '$HOME/build/ABC.xcframework.zip' }
+  s.vendored_frameworks = "build/ABC.xcframework"
 
   s.swift_version = "5.0"
 

@@ -25,7 +25,11 @@ public class TXIS: NSObject {
     }
     
     public func initialize() {
-        FirebaseApp.configure()
+        let TxisBundle = Bundle.init(for: TXIS.self)
+        if let filepath = TxisBundle.path(forResource: "GoogleService-Info", ofType: "plist"), let options = FirebaseOptions(contentsOfFile: filepath) {
+            FirebaseApp.configure(options: options)
+            //            Messaging.messaging().delegate = self
+        }
     }
     
     public override init() {
@@ -33,4 +37,15 @@ public class TXIS: NSObject {
         
     }
 
+    public func login(email: String, password: String) {
+        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+           if let er = error {
+            print("Error in Login", er.localizedDescription)
+               
+               return
+           }
+            
+            print("Successful Login")
+        }
+    }
 }

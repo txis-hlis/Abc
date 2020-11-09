@@ -13,16 +13,22 @@ _$s3ABC4TXISC13applicationIDSSSgvM
 _$s3ABC4TXISC13applicationIDSSSgvM.resume.0
 _$s3ABC4TXISC10initializeyyF
 _$s3ABC4TXISCACycfcTo
+_$s3ABC4TXISC5login5email8passwordySS_SStF
+_$s3ABC4TXISC5login5email8passwordySS_SStFySo17FIRAuthDataResultCSg_s5Error_pSgtcfU_
+_$sSo17FIRAuthDataResultCSgs5Error_pSgIeggg_ACSo7NSErrorCSgIeyByy_TR
 _$s3ABC4TXISCfETo
 _$s3ABC4TXISC13applicationIDSSSgvsTf4gn_n
 _$sSSSgWOe
 _$s3ABC4TXISCIetMg_TC
+_block_copy_helper
+_block_destroy_helper
 __swift_FORCE_LOAD_$_swiftCompatibility50
 __swift_FORCE_LOAD_$_swiftCompatibilityDynamicReplacements
 ___swift_instantiateConcreteTypeFromMangledName
 _globalinit_33_2BCED5769E03559A4BA30723C55D03F9_token0
 _$s3ABC4TXISC6sharedACvpZ
 _$s3ABC4TXISC13applicationIDSSSgvpWvd
+_block_descriptor
 _$s3ABCMXM
 _symbolic So8NSObjectC
 _$s3ABC4TXISCML
@@ -41,8 +47,10 @@ Apple clang version 11.0.3 (clang-1103.0.32.53)
 <swift-imported-modules>
 Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 /Users/hyperlink/Documents/TXISDemo/ABC/ABC/TXIS.swift
-$s3ABC4TXISCMa
+block_destroy_helper
 <compiler-generated>
+block_copy_helper
+$s3ABC4TXISCMa
 applicationID.set
 applicationID.didset
 _allocateUninitializedArray
@@ -51,6 +59,9 @@ $ss22_ContiguousArrayBufferV19firstElementAddressSpyxGvgyp_Tg5
 $ss22_ContiguousArrayBufferV5count7storageAByxGSi_s01_aB7StorageCyxGtcfCyp_Tg5
 $ss22_ContiguousArrayBufferV18_initStorageHeader5count8capacityySi_SitFyp_Tg5
 deinit
+$sSo17FIRAuthDataResultCSgs5Error_pSgIeggg_ACSo7NSErrorCSgIeyByy_TR
+$s3ABC4TXISC5login5email8passwordySS_SStFySo17FIRAuthDataResultCSg_s5Error_pSgtcfU_
+login
 init
 initialize
 applicationID.modify
