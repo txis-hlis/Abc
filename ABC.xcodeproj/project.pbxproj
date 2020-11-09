@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D13CF812559292C00CC2ADE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D13CF802559292C00CC2ADE /* GoogleService-Info.plist */; };
 		5D265CE22556E10400C9119D /* ABC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D265CE02556E10400C9119D /* ABC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D265CE92556E21E00C9119D /* TXIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D265CE82556E21E00C9119D /* TXIS.swift */; };
-		5D265CEB2556E23C00C9119D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D265CEA2556E23C00C9119D /* GoogleService-Info.plist */; };
 		90A6277D2F9D848BE8E08040 /* Pods_ABC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330079328CF7E94A6D73227F /* Pods_ABC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E6EF0FC1DB1A51E535AE9F6 /* Pods-ABC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC.debug.xcconfig"; path = "Target Support Files/Pods-ABC/Pods-ABC.debug.xcconfig"; sourceTree = "<group>"; };
 		330079328CF7E94A6D73227F /* Pods_ABC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D13CF802559292C00CC2ADE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5D265CDD2556E10400C9119D /* ABC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ABC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D265CE02556E10400C9119D /* ABC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABC.h; sourceTree = "<group>"; };
 		5D265CE12556E10400C9119D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D265CE82556E21E00C9119D /* TXIS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TXIS.swift; sourceTree = "<group>"; };
-		5D265CEA2556E23C00C9119D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AC0DB4F5989774BC4BAE131C /* Pods-ABC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC.release.xcconfig"; path = "Target Support Files/Pods-ABC/Pods-ABC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +69,7 @@
 				5D265CE02556E10400C9119D /* ABC.h */,
 				5D265CE82556E21E00C9119D /* TXIS.swift */,
 				5D265CE12556E10400C9119D /* Info.plist */,
-				5D265CEA2556E23C00C9119D /* GoogleService-Info.plist */,
+				5D13CF802559292C00CC2ADE /* GoogleService-Info.plist */,
 			);
 			path = ABC;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D265CEB2556E23C00C9119D /* GoogleService-Info.plist in Resources */,
+				5D13CF812559292C00CC2ADE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
