@@ -37,8 +37,8 @@ public class TXIS: NSObject {
         
     }
 
-    public func login(email: String, password: String) {
-        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+    public func login(email: String, password: String?) {
+        Auth.auth().signIn(withEmail: email, password: password!) { (result, error) in
            if let er = error {
             print("Error in Login", er.localizedDescription)
                

@@ -1,0 +1,11 @@
+framework module SDKONE {
+  umbrella header "SDKONE.h"
+
+  export *
+  module * { export * }
+}
+
+module SDKONE.Swift {
+    header "SDKONE-Swift.h"
+    requires objc
+}

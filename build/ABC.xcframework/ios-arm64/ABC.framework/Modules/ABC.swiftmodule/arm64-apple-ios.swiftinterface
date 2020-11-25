@@ -15,6 +15,6 @@ import Swift
   }
   public func initialize()
   @objc override dynamic public init()
-  public func login(email: Swift.String, password: Swift.String)
+  public func login(email: Swift.String, password: Swift.String?)
   @objc deinit
 }

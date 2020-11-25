@@ -18,16 +18,19 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source = { :git => '$HOME/build/ABC.xcframework.zip' }
-  s.vendored_frameworks = "build/ABC.xcframework"
+#  s.source = { :git => '$HOME/build/ABC.xcframework.zip' }
+#  s.vendored_frameworks = "build/ABC.xcframework"
+
+s.source = { :git => '$HOME/build/StaticSDK.xcframework.zip' }
+s.vendored_frameworks = "build/StaticSDK.xcframework"
 
   s.swift_version = "5.0"
 
   # ――― Dependencies ―――――――――――――――――――――――――――---――――――――――――――――――――――――――――――― #
-  s.dependency 'Firebase'
-  s.dependency 'FirebaseAuth'
-  s.dependency 'Firebase/Messaging'
-  s.dependency 'Firebase/Crashlytics'
-  s.dependency 'Firebase/Analytics'
+#  s.dependency 'Firebase'
+#  s.dependency 'FirebaseAuth'
+#  s.dependency 'Firebase/Messaging'
+#  s.dependency 'Firebase/Crashlytics'
+#  s.dependency 'Firebase/Analytics'
   # Any other dependency you might need.
 end

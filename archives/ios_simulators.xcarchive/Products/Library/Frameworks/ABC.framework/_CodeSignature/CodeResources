@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/ABC.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ywlJlPmsK49ZIGLn630GXr7IPfE=
+		YGvHEImrYuRgPcYVH1BFy6DUHtU=
 		</data>
 		<key>Modules/ABC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/3FMZX8Ymo4CoiMUzSAmDXsEs2c=
+		3+AZ7nCBNGQL1LLfEXZ1yERwR7A=
 		</data>
 		<key>Modules/ABC.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -38,15 +38,19 @@
 		</data>
 		<key>Modules/ABC.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		ywlJlPmsK49ZIGLn630GXr7IPfE=
+		YGvHEImrYuRgPcYVH1BFy6DUHtU=
 		</data>
 		<key>Modules/ABC.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		/3FMZX8Ymo4CoiMUzSAmDXsEs2c=
+		3+AZ7nCBNGQL1LLfEXZ1yERwR7A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		da0drwFVVmVA5iNzmvDK/qGjvQw=
+		</data>
+		<key>build.sh</key>
+		<data>
+		Jx1hwvAr0FPWEXr9SNyFfnaI+Vw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -83,14 +87,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9swoiX4KxLbWjwB+kBEYltGaN80hCZxBG1AY4vwtKAA=
+			DHsHaPxzE6AzCNPRj2CEpxLLpf1uVS7rfXZGwOS4QdY=
 			</data>
 		</dict>
 		<key>Modules/ABC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IR1qzbHH0f7tOE8qMq088Y9QbLKvM4kSSF1gYVj/tp4=
+			IuyBLSgE3kVOYKczOD9toMIomny+kJJqOkqZ9qXtL0Y=
 			</data>
 		</dict>
 		<key>Modules/ABC.swiftmodule/x86_64.swiftdoc</key>
@@ -104,14 +108,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9swoiX4KxLbWjwB+kBEYltGaN80hCZxBG1AY4vwtKAA=
+			DHsHaPxzE6AzCNPRj2CEpxLLpf1uVS7rfXZGwOS4QdY=
 			</data>
 		</dict>
 		<key>Modules/ABC.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IR1qzbHH0f7tOE8qMq088Y9QbLKvM4kSSF1gYVj/tp4=
+			IuyBLSgE3kVOYKczOD9toMIomny+kJJqOkqZ9qXtL0Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -119,6 +123,13 @@
 			<key>hash2</key>
 			<data>
 			NIaGzIAxCUp7REkCSoRtIfBSlKAFLqCxeT/dU+OWpgw=
+			</data>
+		</dict>
+		<key>build.sh</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uuc/H07BTRZnln2RqqRQA9U9Y4uELhevd1YVtBhNjxU=
 			</data>
 		</dict>
 	</dict>
